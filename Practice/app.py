@@ -15,6 +15,5 @@ def webCrawler():
 	args3 = request.args.get('args3')
 	return extract(args1,args2,args3)
 
-
 if __name__ == '__main__':
 	app.run(debug=True, port=5000)
